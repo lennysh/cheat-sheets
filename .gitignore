@@ -1,0 +1,15 @@
+# Editor and OS noise
+.ansible/
+.vscode/
+.cursor/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local notes that should stay off git
+*.local.md
+.env
+.env.*

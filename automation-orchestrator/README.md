@@ -26,6 +26,7 @@ oc get route,deploy -n automation-orchestrator
 2. [Allowlist AAP + AO hosts](#2-allowlist-aap--ao-hosts)
 3. [Verify](#verify)
 4. [Operator reconcile warning](#operator-reconcile-warning)
+5. [Credits](#credits)
 
 ---
 
@@ -105,3 +106,12 @@ These Deployments are owned by the `AutomationOrchestrator` CR. The operator (or
 If a restart or operator bump drops the vars, re-apply the snippets — or persist them on the CR if your operator version exposes extra env (not present on early CRs).
 
 Do not commit real hostnames or tokens into this repo.
+
+---
+
+## Credits
+
+| Section | Credit |
+|---------|--------|
+| [1. Allow OIDC to private-network IdPs / AAP](#1-allow-oidc-to-private-network-idps--aap) | [hammer-redhat](https://github.com/hammer-redhat) (Chris Hammer) |
+| [2. Allowlist AAP + AO hosts](#2-allowlist-aap--ao-hosts) | [hammer-redhat](https://github.com/hammer-redhat) (Chris Hammer) |

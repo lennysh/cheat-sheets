@@ -37,6 +37,7 @@ Keep hostnames and namespaces as placeholders (`aap.example.com`, `-n automation
 ## Related repos
 
 - [ansible-playground](https://github.com/lennysh/ansible-playground) — playbooks and AAP Config-as-Code
+- [argocd-playground](https://github.com/lennysh/argocd-playground) — Argo CD GitOps for AAP, Automation Orchestrator, and related apps on OpenShift
 - [eda-playground](https://github.com/lennysh/eda-playground) — Event-Driven Ansible
 - [openshift-playground](https://github.com/lennysh/openshift-playground) — OpenShift / AAP operator utilities
 - [postgres-playground](https://github.com/lennysh/postgres-playground) — PostgreSQL diagnostics

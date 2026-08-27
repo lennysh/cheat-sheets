@@ -11,8 +11,8 @@ Companion to the playground repos (labs and demos), not a replacement for them.
 | Topic | Path | What's in it |
 |-------|------|----------------|
 | Automation Orchestrator | [automation-orchestrator/](automation-orchestrator/) | AAP integration env vars: private-network OIDC, URL allowlists, rollouts |
-| Ansible | — | *planned* |
-| AAP | — | *planned* |
+| Ansible | [ansible/](ansible/) | Playbook Jinja2 filters, tests, and task/play keywords |
+| AAP | [ansible-automation-platform/](ansible-automation-platform/) | Diagnostics by install model (RPM, containerized, OpenShift) plus shared gateway API |
 | OpenShift | — | *planned* |
 
 ## Layout
@@ -22,8 +22,15 @@ One folder per product or topic. The folder `README.md` is the cheat sheet (or a
 ```text
 cheat-sheets/
 ├── README.md                      # this index
+├── ansible/
+│   └── README.md                  # filters / tests / keywords
+├── ansible-automation-platform/
+│   ├── README.md                  # index + shared API
+│   ├── rpm.md
+│   ├── containerized.md
+│   └── openshift.md
 └── automation-orchestrator/
-    └── README.md                  # first sheet
+    └── README.md
 ```
 
 Keep hostnames and namespaces as placeholders (`aap.example.com`, `-n automation-orchestrator`). Swap in lab values when you paste.
